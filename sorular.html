@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigasyon Çubuğu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="sorular.html">Soru Yükle</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a href="login.html">Giriş Yap</a>
+        </div>
+    </header>
+
+    <div class="soru-kutusu">
+
+        <div class="resim-kutusu">
+            <img src="#" alt="Resim Önizleme" id="resim-onizleme">
+        </div>
+        
+        <div class="resim-yukle">
+            <input type="file" id="resim" name="resim" accept="image/*">
+            <label for="resim">Resim Yükle</label>
+        </div>
+        <div class="sorunuzu-yazin">
+            <label for="soru">Sorunuzu Yazın:</label>
+            <textarea id="soru" name="soru" rows="4" required></textarea>
+        </div>
+        <div class="butonlar">
+            <button class="ekle">Ekle</button>
+            <button class="sil">Sil</button>
+            <button class="düzenle">Düzenle</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 WebSitemiz. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
